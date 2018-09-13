@@ -13,13 +13,13 @@ MaxBipartiteMatching.cc	Max bipartite matchine
 MinCut.cc	Global min-cut
 GraphCutInference.cc	Graph cut inference
 #MaxFlow.java	Max-flow (Java)
-#MinCostMaxFlow.java	Min-cost max-flow (Java)
+MinCostMaxFlow.java	Min-cost max-flow (Java)
 
 [Geometry]
 ConvexHull.cc	Convex hull
 Geometry.cc	Miscellaneous geometry
-JavaGeometry.java	Java geometry
-Geom3D.java	3D geometry
+#JavaGeometry.java	Java geometry
+#Geom3D.java	3D geometry
 Delaunay.cc	Slow Delaunay triangulation
 #Delaunay.java	Slow Delaunay triangulation (Java)
 
@@ -46,18 +46,18 @@ BIT.cc	Binary Indexed Tree
 UnionFind.cc	Union-find set
 KDTree.cc	KD-tree
 splay.cc	Splay tree
-SegmentTreeLazy.java	Lazy segment tree
+#SegmentTreeLazy.java	Lazy segment tree
 LCA.cc	Lowest common ancestor
 
 [Miscellaneous]
 LongestIncreasingSubsequence.cc	Longest increasing subsequence
 Dates.cc	Dates
-LogLan.java	Regular expressions
+#LogLan.java	Regular expressions
 Primes.cc	Prime numbers
 IO.cc	C++ input/output
 KMP.cc	Knuth-Morris-Pratt
 LatLong.cc	Latitude/longitude
-EmacsSettings.txt	Emacs settings
+#EmacsSettings.txt	Emacs settings
 #TopologicalSort.cc	Topological sort (C++)
 #Dates.java	Dates (Java)
 #DecFormat.java	Decimal output formatting (Java)
@@ -65,4 +65,5 @@ EmacsSettings.txt	Emacs settings
 #CSP.cc	Constraint satisfaction problems
 #FastExpo.cc	Fast exponentiation
 #LCS.cc	Longest common subsequence
-#MillerRabin.c	Miller-Rabin Primality Test (C)
+MillerRabin.cc	Miller-Rabin Primality Test (C++)
+MillerRabinOther.cc	OTHER Miller-Rabin Primality Test (C++)
